@@ -112,7 +112,7 @@ route '/blog/**/*' do
 	elsif item.identifier.without_ext.end_with?('index')
 		item.identifier.without_ext.gsub(/\d\d\d\d-\d\d-\d\d-/, '') + '.html'
 	else
-		item.identifier.without_ext.gsub(/\d\d\d\d-\d\d-\d\d-/, '') + '/index.html'
+		item.identifier.without_ext.gsub(/(\d\d\d\d)-(\d\d)-(\d\d)-/, '\\1/\\2/') + '/index.html'
 	end
 end
 
