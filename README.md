@@ -1,9 +1,13 @@
+# WARNING
+
+This is my (Kev's) personal fork, and I'll be rebasing it when I feel like it. If you want to use this yourself, fork upstream and use that.
+
 # [My Nanoc Blog Skeleton](https://el-tramo.be/blog-skeleton)
 
 ## About
 
 This repository contains the skeleton and code for my [nanoc](http://nanoc.ws)-based blog,
-hosted at <https://el-tramo.be>. 
+hosted at <https://el-tramo.be>.
 More information about this code can be found in my [blog post](https://el-tramo.be/blog/wordpress-to-nanoc).
 
 
@@ -16,7 +20,7 @@ site on other Gems. After installing the `bundler` gem, run
 
 To install all required gems.
 
-If you want to deploy to Amazon S3 (using the `deploy_aws` task), you also 
+If you want to deploy to Amazon S3 (using the `deploy_aws` task), you also
 need [s3cmd](http://s3tools.org/s3cmd).
 
 ## Usage
@@ -35,6 +39,5 @@ tasks. For a full list of tasks, run
 ## Notes
 
 - The layouts are written in HAML, which is a bit harder to understand at first. If you
-  want to see how the site looked like using ERB, there is a Git tag 'erb' with an (earlier) 
+  want to see how the site looked like using ERB, there is a Git tag 'erb' with an (earlier)
   ERB version of the site.
-
